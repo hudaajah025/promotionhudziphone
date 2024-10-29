@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheels - Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --yellow: #3BACB6;
+            --light-yellow: #B1D0E0;
+            --black: #205375;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .price {
+            font-size: 2.5rem;
+            color: var(--black);
+        }
+        .featured-card img {
+            height: 15rem;
+            object-fit: cover;
+            height: auto;
+        }
+
+        .price {
+            font-size: 1.5rem;
+        }
+       
+
+    </style>
+</head>
+<body>
+
+   <!-- Header -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3 shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://i0.wp.com/www.hudz.nl/wp-content/uploads/2015/09/HUDZ-logo-transparant1.png?w=879&ssl=1" alt="Logo" style="height: 40px; margin-right: 10px;"> IPhone
+        </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iphone.html">IPhone</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="footer.html">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Featured Cars -->
+    <section class="container py-5">
+        
+        <h2 class="text-center display-4 mb-5"><br>IPhone</h2>
+        <div class="row g-10">
+            <div class="col-md-4 col-lg-3">
+                <div class="card featured-card h-100 shadow">
+                    <img src="https://ibgadgetstore.id/wp-content/uploads/2024/04/Remove-bg.ai_1712049677457.webp" class="card-img-top p-3" alt="iphone11">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">IPhone 11</h3>
+                        <p class="price">Rp.5.400.000</p>
+                        <a href="contact.html" class="btn btn-custom">Check Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card featured-card h-100 shadow">
+                    <img src="https://cdsassets.apple.com/content/services/pub/image?productid=300428&size=240x240" class="card-img-top p-3" alt="IPhone13" >
+                    <div class="card-body text-center">
+                        <h3 class="card-title">IPhone 13</h3>
+                        <p class="price">Rp.8.000.000</p>
+                        <a href="contact.html" class="btn btn-custom">Check Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card featured-card h-100 shadow">
+                    <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png" class="card-img-top p-3" alt="iphone15">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">IPhone 15</h3>
+                        <p class="price">Rp.12.500.000</p>
+                        <a href="contact.html" class="btn btn-custom">Check Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card featured-card h-100 shadow">
+                    <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-16.png" class="card-img-top p-3" alt="iphone16">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">IPhone 16</h3>
+                        <p class="price">Rp.20.000.000</p>
+                        <a href="contact.html" class="btn btn-custom">Check Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
